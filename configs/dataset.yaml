@@ -1,0 +1,62 @@
+input_fasta: data/sequences/ncbi_16s_rRNA_46b.fasta
+root_dir: outputs/dataset
+
+valid_bases: ["A", "T", "C", "G"]
+
+num_datasets: 12
+uniform_percent: 0.3
+
+min_pairs: 20000
+max_pairs: 120000
+
+param_space:
+  target_count: [5000, 10000, 15000, 20000]
+  K: [5, 10, 15, 20]
+
+target_species:
+  - lactiplantibacillus plantarum
+  - bacillus subtilis
+  - limosilactobacillus fermentum
+  - bacillus cereus
+  - enterococcus faecium
+  - escherichia coli
+  - bacillus licheniformis
+  - lactococcus lactis
+  - pseudomonas aeruginosa
+  - klebsiella pneumoniae
+  - enterobacter cloacae
+  - bacteroides fragilis
+  - lactobacillus acidophilus
+  - klebsiella oxytoca
+  - pseudomonas putida
+  - leptospira interrogans
+  - acidithiobacillus ferrooxidans
+  - staphylococcus aureus
+  - bacteroides thetaiotaomicron
+  - stutzerimonas stutzeri
+  - pseudomonas fluorescens
+  - proteus mirabilis
+  - citrobacter freundii
+  - salmonella enterica
+  - lactobacillus helveticus
+  - lacticaseibacillus casei
+  - lacticaseibacillus rhamnosus
+  - bacillus amyloliquefaciens
+  - bacillus thuringiensis
+  - bacillus pumilus
+  - paenibacillus polymyxa
+  - geobacillus stearothermophilus
+  - lactobacillus delbrueckii
+  - serratia marcescens
+  - morganella morganii
+  - heyndrickxia coagulans
+  - priestia megaterium
+  - pediococcus pentosaceus
+  - leuconostoc mesenteroides
+  - klebsiella aerogenes
+  - klebsiella variicola
+  - campylobacter jejuni
+  - fusobacterium nucleatum
+  - akkermansia muciniphila
+  - thermus thermophilus
+  - streptomyces coelicolor

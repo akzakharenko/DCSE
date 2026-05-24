@@ -1,0 +1,24 @@
+learning_rate: 0.0005
+
+batch_size: 32
+epochs: 15
+patience: 2
+seed: 42
+
+filters_identity: 64
+residual_scale: 0.05
+
+mask_loss_pos_weight: 10.0
+mask_loss_tv_weight: 0.05
+mask_loss_sparsity: 0.002
+
+dense_units_hsp:
+  - 128
+  - 64
+
+decoder_hidden:
+  - 64
+  - 32
+
+pos_filters: 32
+pos_depth: 5
