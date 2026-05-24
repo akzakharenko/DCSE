@@ -1,0 +1,13 @@
+dataset,sequences,species,distribution,K,pairs
+dataset_01,15000,42,uniform,10,75000
+dataset_02,20000,11,random,15,50000
+dataset_03,10000,20,random,20,100000
+dataset_04,15000,6,random,5,37500
+dataset_05,5000,31,random,15,37500
+dataset_06,10000,1,random,5,25000
+dataset_07,15000,4,random,15,112500
+dataset_08,15000,18,random,20,37500
+dataset_09,5000,2,uniform,10,25000
+dataset_10,10000,46,random,5,25000
+dataset_11,10000,15,uniform,20,100000
+dataset_12,20000,37,random,5,50000
